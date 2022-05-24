@@ -41,5 +41,19 @@ class ViewController: UIViewController {
         forwardBackground.layer.cornerRadius = forwardBackground.frame.height / 2
         forwardBackground.clipsToBounds = true
     }
+    
+    @IBAction func playPauseButtonTapped(_ sender: Any) {
+        isPlaying.toggle()
+        
+        if isPlaying {
+            UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: [], animations: {
+                self.albumImageView.transform = CGAffineTransform.identity }, completion: nil)
+        } else {
+            UIView.animate(withDuration: 0.5) {
+                self.albumImageView.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+            }
+        }
+    }
+    
 }
 
