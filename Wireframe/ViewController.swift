@@ -8,6 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var isPlaying: Bool = true {
+        didSet {
+            playPauseButton.isSelected = isPlaying
+        }
+    }
 
     @IBOutlet var albumImageView: UIImageView!
     @IBOutlet var reverseBackground: UIView!
