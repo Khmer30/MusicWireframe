@@ -42,6 +42,13 @@ class ViewController: UIViewController {
         forwardBackground.clipsToBounds = true
     }
     
+    @IBAction func touchedDown(_ sender: UIButton) {
+    }
+    
+    @IBAction func touchedUpInside(_ sender: UIButton) {
+    }
+    
+    
     @IBAction func playPauseButtonTapped(_ sender: Any) {
         isPlaying.toggle()
         
@@ -54,6 +61,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
     
 }
 
