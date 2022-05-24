@@ -21,6 +21,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        [reverseBackground, playPauseBackground, forwardBackground].forEach {
+            view in
+            view?.layer.cornerRadius = view!.frame.height / 2
+            view?.clipsToBounds = true
+            view?.alpha = 0.0
+        }
        
         reverseBackground.layer.cornerRadius = reverseBackground.frame.height / 2
         reverseBackground.clipsToBounds = true
