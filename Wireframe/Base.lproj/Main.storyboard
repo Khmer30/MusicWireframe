@@ -47,6 +47,8 @@
                                         </state>
                                         <connections>
                                             <action selector="playPauseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YOk-Oo-4ZD"/>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wq9-eJ-9pc"/>
+                                            <action selector="touchedUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TYr-PJ-lRS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7k-5j-Gfj">
@@ -56,6 +58,10 @@
                                         <state key="normal" image="forward.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                         </state>
+                                        <connections>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPG-C0-z12"/>
+                                            <action selector="touchedUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULi-Iw-x34"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
