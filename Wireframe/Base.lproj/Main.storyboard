@@ -52,6 +52,21 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7me-5P-uvW">
+                                <rect key="frame" x="11" y="566" width="122" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I84-A5-grx">
+                                <rect key="frame" x="146" y="566" width="122" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Yo-bR-pOD">
+                                <rect key="frame" x="276" y="566" width="122" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -64,6 +79,15 @@
                             <constraint firstItem="BE8-wE-Z97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="rpM-E5-ly6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="albumImageView" destination="BE8-wE-Z97" id="KjK-Fh-MEw"/>
+                        <outlet property="forwardBackground" destination="2Yo-bR-pOD" id="Dgg-Nn-dIv"/>
+                        <outlet property="forwardButton" destination="I7k-5j-Gfj" id="c56-gT-NAp"/>
+                        <outlet property="playPauseBackground" destination="I84-A5-grx" id="ixg-jh-uTm"/>
+                        <outlet property="playPauseButton" destination="0iF-NJ-iMP" id="p0w-md-jrC"/>
+                        <outlet property="reverseBackground" destination="7me-5P-uvW" id="sZD-RD-uis"/>
+                        <outlet property="reverseButton" destination="7E8-Ra-6rc" id="P3U-N6-vDo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
