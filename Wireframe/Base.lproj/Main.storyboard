@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BE8-wE-Z97">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="119463802-colorful-christian-cross-with-music-notes-isolated-vector-illustration-religion-themed-background-de" translatesAutoresizingMaskIntoConstraints="NO" id="BE8-wE-Z97">
                                 <rect key="frame" x="20" y="64" width="374" height="374"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
@@ -88,7 +88,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
                             <constraint firstItem="2Yo-bR-pOD" firstAttribute="centerY" secondItem="I7k-5j-Gfj" secondAttribute="centerY" id="6Jv-Lq-Emy"/>
                             <constraint firstItem="I84-A5-grx" firstAttribute="centerX" secondItem="0iF-NJ-iMP" secondAttribute="centerX" id="9az-qI-ktD"/>
@@ -127,12 +127,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="119463802-colorful-christian-cross-with-music-notes-isolated-vector-illustration-religion-themed-background-de" width="450" height="449"/>
         <image name="backward.fill" catalog="system" width="128" height="79"/>
         <image name="forward.fill" catalog="system" width="128" height="79"/>
         <image name="pause.fill" catalog="system" width="116" height="128"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

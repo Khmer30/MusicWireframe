@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         isPlaying.toggle()
         
         if isPlaying {
-            UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: [], animations: {
+            UIView.animate(withDuration: 5, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: [], animations: {
                 self.albumImageView.transform = CGAffineTransform.identity }, completion: nil)
         } else {
             UIView.animate(withDuration: 0.5) {
